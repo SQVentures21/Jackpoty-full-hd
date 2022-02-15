@@ -104,7 +104,6 @@ body {
   line-height: 16px;
   letter-spacing: 0em;
   text-align: center;
-  color:black!important;
 }
 
 .payments {
@@ -257,6 +256,8 @@ body {
   border-top: 1px solid rgba(134, 141, 153, 0.2);
   border-bottom: 1px solid rgba(134, 141, 153, 0.2);
   margin-bottom: 16px;
+  max-width: 1240px;
+  margin-inline: auto;
 }
 
 @media only screen and (min-width: 700px) and (orientation: landscape) {
@@ -529,7 +530,6 @@ body {
 
 @media only screen and (min-width: 1080px) {
   .container {
-    max-width: 1800px;
     margin: 0 auto;
   }
   .main-banner {
@@ -566,11 +566,79 @@ body {
     height: 36px !important;
     width: 849px !important;
   }
+
+  .cards {
+    gap: 32;
+  }
+
+  .icons {
+    gap: 80px;
+  }
+
+  .footer {
+    width: 950px;
+  }
 }
 
 @media only screen and (min-width: 2000px) {
   .logo {
-    height: 48px;
-    width: 240px;
+    height: 50px;
+    width: 252px;
+    margin-top: 0px;
+  }
+
+  .main-banner {
+    height: 512px;
+  }
+
+  .main-banner-h1 {
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .banner-jackpot-img {
+    height: 214px;
+    width: 302px;
+  }
+
+  .banner-jackpot-p {
+    position: absolute;
+    top: 95px;
+    right: 39px;
+    width: 213px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .payment {
+    height: 61px !important;
+    width: 540px !important;
+    margin: 64px 0px 49px 0px;
+  }
+
+  .two-logos {
+    margin-top: 30px;
+    margin-bottom: 56px;
+  }
+
+  .footer-p {
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
